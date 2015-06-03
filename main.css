@@ -2,7 +2,147 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+	background-color: #1C1303;
+	font-family: helvetica, sans-serif;
+	margin: 5px;
 }
+
+h3 {
+	color: darkgoldenrod;
+	margin-top: -120px;
+	margin-left: 300px;
+	
+}
+
+
+.top-nav {
+	margin-left: 300px;
+	list-style-type: none;
+	padding: 5px;
+}
+
+.top-nav li {
+	display: inline-block;
+	padding: 12px;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color: khaki;
+}
+
+img {
+	margin-top: 70px;
+	margin-left: 30px;
+}
+
+
+.tools_images {
+	display: inline;
+	margin-right: 50px;
+	padding-bottom: 30px;
+}
+
+.sign_up_today {
+	color: white;
+	background-color: olive;
+	box-shadow: 10px 10px 15px #030201;
+	height: 150px;
+	width: 200px;
+	font-size: 20px;
+	float: right;
+	margin-right: 450px;
+	margin-top: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+.services {
+	margin-top: 100px;
+}
+	
+
+
+
+#articles {
+	display: inline;	
+}
+
+.about_api {
+	background-color: khaki;
+	color: #838583;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 15px;
+	font-size: 15px;
+	text-align: justify;
+	border: 5px solid tan;
+	opacity: .80;
+	width: 50%;
+	margin: 10px;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.testimonials  {
+	color: khaki;
+	background-color: darkgoldenrod;
+	height: 600px;
+	width: 200px;
+	float: right;
+	margin-right: 450px;
+	margin-top: -285px;
+	padding: 20px;
+}
+
+.featuring {
+	background-color: khaki;
+	color: #838583;
+	width: 50%;
+	margin: 10px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 15px;
+	font-size: 15px;
+	text-align: justify;
+	border: 5px solid tan;
+	opacity: .80;
+}
+
+aside {
+	float: right;
+	margin-right: -200px;
+	margin-top: 200px;
+	padding-right: 40px;
+}
+
+section {
+	display: inline;
+}
+
+.bottom_nav {
+	display: inline;
+}
+
+
+.product {
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 12px;
+}
+
+.resources {
+	margin-left: 70px;
+	margin-bottom: 20px;
+	color: lightgray;
+	font-size: 12px;
+}
+
+
