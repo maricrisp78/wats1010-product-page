@@ -2,117 +2,221 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-	background-color: #1C1303;
+	background-color: graytext;
 	font-family: helvetica, sans-serif;
-	margin: 5px;
+	margin: 20px;
+
+	background: url('techy_background.png') no-repeat;
 }
 
 h3 {
-	color: darkgoldenrod;
-	margin-top: -120px;
-	margin-left: 300px;
+	color: whitesmoke;
+	margin-top: 100px;
+	margin-left: 570px;
+	font-size: 30px;
+	text-shadow: 5px 5px 4px brown;	
+}
+
+
+.logo_image { /* api logo */
+	margin-top: 50px;
+	margin-bottom: -270px;
+	margin-left: 550px;
 	
+
 }
 
 
 .top-nav {
-	margin-left: 300px;
+	height: 255px;
+	background-color: #54575C;
+	border-bottom: 2px solid #5A88C4; 
+	text-align: center;	
+
+	
+}
+
+
+.top-nav ul li {
 	list-style-type: none;
-	padding: 5px;
+	float: left;
+	text-align: 260px;
+	
+	
+
+	
 }
 
-.top-nav li {
+.top-nav ul li a {
+	
 	display: inline-block;
-	padding: 12px;
-	font-size: 20px;
-	margin-top: 20px;
-	background-color: khaki;
+	padding: 10px;
+	font-size: 15px;
+	background-color: darkgoldenrod;
+	margin-top: 100px;
+	border-right: 2px solid white;
+	padding: 20px;
+	
 }
 
-img {
-	margin-top: 70px;
-	margin-left: 30px;
+a:link {
+    color: darkgoldenrod;
+
 }
+
+
+a:visited {
+    color: white;
+
+}
+
+
+a:hover {
+	background-color: white;
+    color: red;
+}
+
+
+
 
 
 .tools_images {
 	display: inline;
-	margin-right: 50px;
-	padding-bottom: 30px;
-}
+	margin-bottom: 20px;
 
-.sign_up_today {
-	color: white;
-	background-color: olive;
-	box-shadow: 10px 10px 15px #030201;
-	height: 150px;
-	width: 200px;
-	font-size: 20px;
-	float: right;
-	margin-right: 450px;
-	margin-top: 100px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	text-align: center;
-}
-
-
-
-.services {
-	margin-top: 100px;
-}
 	
+}
+
+	
+.icons {
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: -50px;
+	margin-left: 270px; 
+	margin-right: 315px;
+	padding: 10px;
+	border: 3px solid green;
+	
+}
 
 
+#icon_text1{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 70px;
+	margin-left: 440px;
+	
+}
+
+#icon_text2{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 70px;
+	margin-left: 245px;
+	
+	
+}
+
+#icon_text3{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 70px;
+	margin-right: 100px;
+	margin-left: 270px;
+}
+
+
+
+
+.icon_text:last-child {
+	
+	margin-left: -80px;
+
+
+
+}
+
+
+div {
+	z-index: 1;
+}
+
+	
 
 #articles {
 	display: inline;	
 }
 
 .about_api {
-	background-color: khaki;
-	color: #838583;
+	background-color: #8A8A8A;
+	color: whitesmoke;
 	padding-top: 15px;
 	padding-right: 20px;
 	padding-left: 15px;
 	font-size: 15px;
 	text-align: justify;
 	border: 5px solid tan;
-	opacity: .80;
+
 	width: 50%;
 	margin: 10px;
-	margin-top: 100px;
+	margin-top: 90px;
 	margin-left: 20px;
-}
-
-.testimonials  {
-	color: khaki;
-	background-color: darkgoldenrod;
-	height: 600px;
-	width: 200px;
-	float: right;
-	margin-right: 450px;
-	margin-top: -285px;
-	padding: 20px;
 }
 
 .featuring {
-	background-color: khaki;
-	color: #838583;
-	width: 50%;
-	margin: 10px;
-	margin-left: 20px;
-	margin-top: 30px;
-	padding-top: 15px;
-	padding-right: 20px;
-	padding-left: 15px;
+	background-color: #8A8A8A;
+	color: whitesmoke;
+	width: 170%;
+	margin-left: -940px;
+	margin-top: -380px;
 	font-size: 15px;
-	text-align: justify;
 	border: 5px solid tan;
-	opacity: .80;
+	
+	padding: 15px;
 }
+
+.featuring h4 {
+	margin: 10px;
+}
+
+.testimonials  {
+	color: green;
+	background-color: #8A8A8A;
+	height: 850px;
+	width: 500px;
+	float: right;
+	margin-right: 120px;
+	margin-top: -310px;
+	padding: 20px;
+	font-size: 14px;
+	border: 4px solid tan;
+}
+
+.testimonaial_image1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.testimonaial_image3 {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.testimonaial_image2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+
 
 aside {
 	float: right;
@@ -121,28 +225,53 @@ aside {
 	padding-right: 40px;
 }
 
+
 section {
 	display: inline;
-}
-
-.bottom_nav {
-	display: inline;
+	margin-bottom: 350px;
 }
 
 
 .product {
-	margin-top: 50px;
-	margin-left: 70px;
-	margin-bottom: 20px;
+	float: left;
+	margin: 20px;
+	margin-top: 370px;
 	color: lightgray;
 	font-size: 12px;
+
 }
 
 .resources {
-	margin-left: 70px;
-	margin-bottom: 20px;
+	float: left;
+	margin: 20px;
+	margin-top: 370px;
 	color: lightgray;
 	font-size: 12px;
 }
 
+.address {
+	float: left;
+	margin: 20px;
+	margin-top: 370px;
+	color: lightgray;
+	font-size: 12px;
+}
+
+iframe {
+	margin: -250px;
+	margin-left: 960px;
+	margin-bottom: 170px;
+	margin-top: -255px;
+	
+}
+
+.social {
+	
+	margin-top: 600px;
+
+	margin-left: 60px;
+	
+	color: khaki;
+	font-size: 16px;
+}
 
